@@ -1,0 +1,39 @@
+GET http://localhost:8080/songbook/
+
+
+###
+
+GET http://localhost:8080/songbook/674ebf647e6299b21d165be2
+
+
+
+###
+
+POST http://localhost:8080/songbook
+Content-Type: application/json
+
+{
+    "title": "What was I made of",
+    "artist": "Billie Eilish",
+    "lyrics": "I used to float, \nWhat was I made of"
+
+}
+
+
+
+###
+DELETE http://localhost:8080/songbook/675052d145b4e7363703b5b8
+
+
+
+
+###
+
+PATCH http://localhost:8080/songbook/674ed6cc879fac932d66f13a
+Content-Type: application/json
+
+{
+    "artist": "Cat",
+    "title": "Meow",
+    "lyrics": "Meow Meow Meow Meow\nMeow Meow Meow Meow Meow"
+}
